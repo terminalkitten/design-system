@@ -29,6 +29,7 @@ export { default as Text } from './Text'
 export { default as Tooltip } from './Tooltip'
 export { default as Truncate } from './Truncate'
 export { default as Checkbox } from './Checkbox'
+export { default as Skelaton } from './Skelaton'
 
 export { default as theme } from './theme'
 export { default as legacyTheme } from './legacyTheme'
