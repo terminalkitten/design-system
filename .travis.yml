@@ -4,6 +4,7 @@ node_js:
 after_success:
   - npm run codecov
   - npm run storybook
+  - npm run chromatic -- --app-code=$CHROMATIC_APPCODE
 deploy:
   provider: pages
   skip_cleanup: true
